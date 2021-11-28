@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Scheduler.jnlp">
+  <information>
+    <title>Scheduler</title>
+    <vendor>joann</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\javafx-swt.jar" size="40350" download="eager" />
+    <jar href="lib\javafx.base.jar" size="821548" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2665867" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="137669" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4639914" download="eager" />
+    <jar href="lib\javafx.media.jar" size="292641" download="eager" />
+    <jar href="lib\javafx.swing.jar" size="129900" download="eager" />
+    <jar href="lib\javafx.web.jar" size="770711" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <jfx:javafx-desc  width="800" height="600" main-class="main.Scheduler"  name="Scheduler" />
+  <update check="always"/>
+</jnlp>
